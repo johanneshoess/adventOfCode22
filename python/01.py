@@ -12,4 +12,4 @@ for line in lines:
         count += line
 
 elfes.sort()
-print(elfes[-1])
+print(elfes[-1]+elfes[-2]+elfes[-3])
